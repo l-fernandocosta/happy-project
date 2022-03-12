@@ -1,34 +1,92 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1 align="center">
+  <img src=".github/logo.png" alt="Happy" width="40%" />
+</h1>
 
+<h3 align="center">
+  HAPPY - Simple dashboard just to improve my skills.
+</h3>
+<br>
+
+>Project developed using TypeScript, with the intention of applying new concepts I learned using NextJS, and responsive web Design with ChakraUI.
+
+<p align="center">
+  <img alt="happy" src=".github/Cover.png" width="100%">
+</p>
+
+<!-- Table of Contents -->
+## Table of Contents
+
+* [About the Project](#about-the-project)
+  * [Technologies](#technologies)
+    * [Web](#web)
+* [Getting Started](#getting-started)
+  * [Requirements](#requirements)
+  * [Installation](#installation)
+* [License](#license)
+* [Contact](#contact)
+
+<!-- About the Project -->
+## About the Project
+
+Happy is a basic dashboard system created to improve some of the skills I'm learning. All built with responsive web design.
+
+I used the mirageJS library, which lets frontend developers mock out backend APIs.
+
+This library was used to create HTTP routes for creating, editing and removing users, and some functionality provided by the library, such as 'factories'.
+
+
+### Technologies
+
+> See now the technologies that I used during the construction of the system 
+
+
+#### Web
+
+- Axios
+- MirageJS
+- Faker
+- React Hook Form
+- yup 
+- ChakraUI
+- React Query
+- React Icons
+- NextJS
+- React Apex Charts
+
+
+<!-- Getting Started -->
 ## Getting Started
 
-First, run the development server:
+>For the applications to work, some tools installed on your machine are required.
 
-```bash
-npm run dev
-# or
-yarn dev
+### Requirements
+
+- [Node.js](https://nodejs.org/en/)
+- [NextJS](https://nextjs.org/)
+
+### Installation
+
+**First clone the project**
+
+```sh
+  git clone https://github.com/l-fernandocosta/happy-project
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+_Install the dependencies_
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+```sh
+  yarn
+```
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+**Launch the web application**
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+```sh
+  yarn start
+```
 
-## Learn More
+<!-- License -->
+## License
+This project is licensed under the [MIT License](LICENSE)
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Contact
+You can connect and talk to me through my [LinkedIn](https://www.linkedin.com/in/fernando-costa-dev/).
